@@ -5,7 +5,6 @@ console.log("Flowers' Output from HW 4 Example 3");
 
 const r = Number(prompt("Enter the circle radius:"));
 
-// TODO: create the circle object here
 
 const myCircle = {
     circumference: function() {

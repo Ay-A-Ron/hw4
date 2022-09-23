@@ -7,11 +7,11 @@ let wordStop = "" ;
 let wordArray = [];
 
 while (wordStop.toLowerCase() !== "stop"){
-    wordStop = prompt("Please enter words, enter stop to terminate program:");
+    wordStop = prompt("Enter words. Type 'stop' to terminate the program");
 
     wordArray.push(wordStop);
     if (wordArray[0].toLowerCase() == "stop"){
-        alert("You terminated the program!");
+        alert("No words to display, Stop was the first word entered.");
         break
     }
 }

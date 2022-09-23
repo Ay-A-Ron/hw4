@@ -3,7 +3,7 @@
 */
 console.log("Flowers' Output from HW 4 Example 1")
 
-const calc = prompt("Please enter two numbers followed by an operator(1,2,+-*/):");
+const calc = prompt("Enter two numbers with an operator at the end ( eg. 1,2,+-*/):");
 
 const calcArray = calc.split(",").map(item => item.trim());
 

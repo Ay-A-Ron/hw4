@@ -21,11 +21,11 @@ const palindrome = (param1) => {
         palinString += param1[i]
     }
     if(palinString !== param1){
-        const messg1 = "The string is not a palindrome"; 
+        const messg1 = "The word is not a palindrome"; 
         return messg1;
     }
     else if (palinString == param1) {
-        const messg2 ="The string is a palindrome!";
+        const messg2 ="The word is a palindrome!";
         return messg2;
     }
 }

@@ -3,7 +3,7 @@
 */
 console.log("Flowers' Output from HW 4 Example 2");
 
-const tempPrompt = Number(prompt('Input Fahrenheit temperature:'));
+const fTempPrompt = Number(prompt('Input: Fahrenheit Temperature'));
 
 const myFunction = (param1) => {
     celsius = (param1 - 32) * 5/9;
@@ -11,10 +11,10 @@ const myFunction = (param1) => {
 
 }
 
-const celsConv = myFunction(tempPrompt);
+const celsConv = myFunction(fTempPrompt);
 
-const cleaned = celsConv.toFixed(2);
+const cTemp = celsConv.toFixed(2);
 
-console.log(`${tempPrompt} degrees Fahrenheit = ${cleaned} degrees Celsius`);
-console.log(`Temperature of ${tempPrompt} Fahrenheit is equivalent to ${cleaned} degrees Celsius`);
-console.log(`Water boiling temperature is ${tempPrompt} or ${cleaned} degrees Celsius`);
+console.log(`${fTempPrompt} degrees Fahrenheit = ${cTemp} degrees Celsius`);
+console.log(`Temperature of ${fTempPrompt} Fahrenheit is equivalent to ${cTemp} degrees Celsius`);
+console.log(`Water boiling temperature is 212 Fahrenheit or 100 degrees Celsius`);

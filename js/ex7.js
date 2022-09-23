@@ -7,22 +7,22 @@ const numGen = Math.floor(Math.random() * 100) + 1;
 
 console.log(numGen);
 
-let input = Number(prompt(`Please enter a number from 1-100(hint:${numGen}):`))
+let input = Number(prompt(`Please enter a number from 1-100`))
 
 let guessCount = 0
 
 while(input !== numGen) {
     if(input > numGen){
         guessCount++ ; 
-        alert('Too high, guess lower');
+        alert('Too high, guess again');
         console.log(guessCount);
-        input = Number(prompt(`Please enter a number from 1-100(hint:${numGen}):`))
+        input = Number(prompt(`Please enter a number from 1-100:`))
     }
     else if(input < numGen) {
         guessCount++ ; 
-        alert('Too low, guess lower');
+        alert('Too low, guess again');
         console.log(guessCount);
-        input = Number(prompt(`Please enter a number from 1-100(hint:${numGen}):`))
+        input = Number(prompt(`Please enter a number from 1-100:`))
     } 
 
     if(input == numGen){

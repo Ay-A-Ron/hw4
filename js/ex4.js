@@ -16,7 +16,7 @@ const mathFunction = (param1) => {
     return addSum;
 };
 
-const doIt = mathFunction(values);
-console.log(`The sum of the array is: ${doIt}`);
+const solve = mathFunction(values);
+console.log(`The sum of the array is: ${solve}`);
 console.log(`The max value of the array is: ${maxVal}`);
 console.log(`The min value of the array is: ${minVal}`);
